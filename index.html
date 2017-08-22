@@ -4,62 +4,58 @@
     <title>Guessing Game</title>
 
     <!-- Bootstrap and CSS here-->
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel='stylesheet' type='text/css' href='style.css'>
+  <link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
 
   </head>
   <body>
 
-      <div id='app'>
+    <div id='app' class='center container'>
 
-        <div id='headers'>
-          <!-- Title and subtitles! -->
-          <h1>Gusssing Game</h1>
-          <h2>Guess a number between 1 and 100</h2>
+        <div id='headers' class="headers">
+          <h1 id='title'>GUESSING GAME</h1>
+          <h3 id='subtitle'>GUESS A NUMBER 1 TO 100!</h3>
         </div>
 
-        <div id='main'>
-          <div id='input-parent'>
-            <!-- Player's guess input, and submit button -->
-            <input type="text" name="guess" placeholder="YOUR GUESS HERE" autofocus="autofocus">
-            <button type="button">SUBMIT</button>            
-          </div>
+      <div id='main'>
+        <div id='input-parent' class="guess-input">
+          <input id='players-input' class='center ' placeholder="#" maxlength='3' autofocus=autofocus></input>
+          <button id='submit'>GO</button>
+        </div>
 
-          <div id='guesses'>
-            <!-- unordered list of guesses -->
-            <ul>
-              <li>guess 1</li>
-              <li>guess 2</li>
-              <li>guess 3</li>
-              <li>guess 4</li>
+          <div id='guesses' class="guesses">
+            <ul id='guess-list'>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
             </ul>
           </div>
 
-          <div id="menu-btns">
-            <!-- reset and hint buttons -->
-            <button>RESET</button>
-            <button>HINT</button>
-          </div>
+        <div id="menu-btns" class="menu-btns">
+          <button id='reset' class=''>Reset</button>
+          <button id='hint' class=''>Hint</button>
         </div>
       </div>
+    </div>
 
-
-
-    <div id='footer'>
-        <div>
-          <div class=''>
-            <img src='fa-logo@2x.png'></img>
-          </div>
-
-          <div class=''>
-            <h4>Project by ANDREY IVANOV</h4>
-          </div>
-
-          <div class=''>
-            <img src='grace_hopper_academy.png'></img>
-          </div>
-
-
+    <div id='footer' class='center container'>
+      <div class='row'>
+        <div class='col-sm-4'>
+          <img class="img-fluid" src='images/fa-logo@2x.png'></img>
         </div>
+
+        <div class='col-sm-4'>
+          <h4>Project by Andrey Ivanov</h4>
+        </div>
+
+        <div class='col-sm-4'>
+          <img class="img-fluid" src='images/grace_hopper_academy.png'></img>
+        </div>
+
+
+      </div>
     </div>
 
   </body>
