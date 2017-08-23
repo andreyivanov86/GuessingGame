@@ -20,7 +20,6 @@ img {
 }
 .container {
   background-color: white;
-  /*border: solid 1px;*/
   margin: 10px auto;
   padding: 10px auto;
   max-width: 520px;
@@ -33,8 +32,6 @@ img {
 }
 .guess-input {
   position: relative;
- /* justify-content: center;*/
-  /*border: solid 1px;*/
   margin: 30px;
 }
 .guess-input input {
@@ -61,18 +58,13 @@ ul {
 }
 .guess {
   display: inline;
-  border: solid 1px;  
-  border-radius: 5px;
+  border: solid 4px #ff0365;  
+  border-radius: 10px;
   font-size: 60px;
   padding: 0 25px;
+
 }
-.menu-btns {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  /*border:solid 1px;*/
-  
-}
+
 
 .menu-btns button {
   height: 70px;
@@ -80,12 +72,50 @@ ul {
   font-size: 40px;
   margin: 20px;
 }
+#headers {
+ 
+  color: #ff0365;
+  border: solid 4px; 
+  border-radius: 10px;
+  margin:20px;
+}
 
 #reset {
-  background-color: #2ED88D;
+  background-color: white;
+  border: solid 4px #ff0365;  
+  border-radius: 10px;
+  color: #ff0365;
 }
+#reset:hover{
+  background-color: #9bea25;
+  border: solid 4px #ff0365;  
+  border-radius: 10px;
+  color: #ff0365;
+}
+#reset:active{
+  background-color: #94f703;
+  border: solid 2px #ff0365;  
+  border-radius: 10px;
+  color: #ff0365;
+}
+
 #hint {
-  background-color: #CC5500;
+  background-color: white;
+  border: solid 4px #ff0365;  
+  border-radius: 10px;
+  color: #ff0365
+}
+#hint:hover {
+  background-color: #f1ef61;
+  border: solid 4px #ff0365;  
+  border-radius: 10px;
+  color: #ff0365
+}
+#hint:active {
+  background-color: #f5dc07;
+  border: solid 2px #ff0365;  
+  border-radius: 10px;
+  color: #ff0365
 }
 #submit {
   background-color: #0098FF;
