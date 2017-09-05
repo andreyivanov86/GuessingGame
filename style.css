@@ -16,21 +16,30 @@ img {
   height: 50px;
   width: 100px;
 }
+ul {
+  margin: auto;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  border: solid 2px #ff0365;  
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 5px 25px;
+}
+
 .center {
   text-align: center;
 }
+
 .container {
   background-color: white;
   margin: 10px auto;
   padding: 10px auto;
   max-width: 520px;
 }
-.headers {
-  /*border: solid 1px;*/
-}
-.guesses {
-  /*border: solid 1px;*/
-}
+
 .guess-input {
   position: relative;
   margin: 30px;
@@ -83,18 +92,8 @@ img {
 }
 
 
-ul {
-  padding: 0;
-  margin: 0;
-}
-.guess {
-  display: inline;
-  border: solid 4px #ff0365;  
-  border-radius: 10px;
-  font-size: 60px;
-  padding: 0 25px;
 
-}
+
 
 
 .menu-btns button {
