@@ -1,6 +1,6 @@
 
 body {
-  background: white url(images/swirl_pattern.png) top left repeat;
+  background: white url(../images/swirl_pattern.png) top left repeat;
   font-family: Helvetica, Arial, serif;
   justify-content: center;
 }
