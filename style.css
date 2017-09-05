@@ -10,6 +10,7 @@ h1 {
 }
 h3 {
   font-weight: 400;
+  margin-top: 10px;
 }
 img {
   height: 50px;
@@ -102,8 +103,7 @@ ul {
   font-size: 40px;
   margin: 20px;
 }
-#headers {
- 
+#headers { 
   color: #ff0365;
   border: solid 4px; 
   border-radius: 10px;
@@ -146,11 +146,4 @@ ul {
   border: solid 5px #ff0365;  
   border-radius: 10px;
   color: #ff0365
-}
-
-#player-input {
-
-}
-#submit {
-
 }
