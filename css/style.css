@@ -23,7 +23,7 @@ ul {
 
 ul li {
   display: inline;
-  border: solid 2px #ff0365;  
+  border: solid 2px #ff0365;
   border-radius: 10px;
   font-size: 20px;
   padding: 5px 25px;
@@ -90,59 +90,51 @@ ul li {
   border-radius: 50%;
   background-color: #73C2FB;
 }
-
-
-
-
-
-
 .menu-btns button {
   height: 70px;
   width: 180px;
   font-size: 40px;
   margin: 20px;
 }
-#headers { 
+#headers {
   color: #ff0365;
-  border: solid 4px; 
+  border: solid 4px;
   border-radius: 10px;
   margin:20px;
 }
-
 #reset {
   background-color: white;
-  border: solid 4px #ff0365;  
+  border: solid 4px #ff0365;
   border-radius: 10px;
   color: #ff0365;
 }
 #reset:hover{
   background-color: #9bea25;
-  border: solid 4px #ff0365;  
+  border: solid 4px #ff0365;
   border-radius: 10px;
   color: #ff0365;
 }
 #reset:active{
   background-color: #94f703;
-  border: solid 5px #ff0365;  
+  border: solid 5px #ff0365;
   border-radius: 10px;
   color: #ff0365;
 }
-
 #hint {
   background-color: white;
-  border: solid 4px #ff0365;  
+  border: solid 4px #ff0365;
   border-radius: 10px;
   color: #ff0365
 }
 #hint:hover {
   background-color: #f1ef61;
-  border: solid 4px #ff0365;  
+  border: solid 4px #ff0365;
   border-radius: 10px;
   color: #ff0365
 }
 #hint:active {
   background-color: #f5dc07;
-  border: solid 5px #ff0365;  
+  border: solid 5px #ff0365;
   border-radius: 10px;
   color: #ff0365
 }
